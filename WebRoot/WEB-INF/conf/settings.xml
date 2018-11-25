@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings.xml>
+	<sysXml id="settings">
+			<kColl id="sysParam" desc="系统参数">
+  				<field id="access_tokenFile" value="/WEB-INF/conf/access_token.properties" desc="access_token配置的Properties文件路径" />
+  				<field id="timeSlot" value="2" desc="每次更新access_token的时间间隔"/>
+  				<field id="appId" value="wxf24556a8140a1d0e" desc="微信appId配置"/>
+  				<field id="appSecret" value="7bcf3ccbddb48e5ca524ee062f623264" desc="微信appSecret配置"/>
+  				
+  			</kColl>
+  			<kColl id="logParam" desc="日志参数配置">
+  				<field id="logPath" value="./log/weChat.log" desc="日志输出文件地址" />
+  				<field id="logType" value="debug" desc="日志打印类型" />
+  				<field id="logType2" value="debug2" desc="日志打印类型2" />
+  			</kColl>
+  			<kColl id="jdbcParam" desc="jdbc连接配置">
+  				<field id="url" value="localhost" desc="地址" />
+  				<field id="name" value="ebank" desc="名称" />
+  				<field id="pwd" value="xfwl" desc="密码" />
+  			</kColl>
+	</sysXml>
+</settings.xml>

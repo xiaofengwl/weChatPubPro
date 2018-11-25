@@ -1,0 +1,111 @@
+2018-11-16 16:58:57 com.xfwl.beans.menus.MenuUtil.creatWeiXinMenu(MenuUtil.java:56) MenuUtil.java INFO 自定义菜单上送报文1：
+{"button":[{"name":"技术交流","sub_button":[{"name":"我的博客","type":"view","url":"https://www.cnblogs.com/newwind/"}]},{"name":"我的游戏","sub_button":[{"name":"吃鸡战场","type":"click","key":"game_cjzc"},{"name":"王者荣耀","type":"click","key":"game_wzry"},{"name":"明日之后","type":"click","key":"game_mrzh"}]},{"name":"与我联系2","type":"view","url":"http://yx4ydh.natappfree.cc/WeChatPubAdrPro/index.jsp"}]}
+ 2018-11-16 16:58:58 com.xfwl.beans.menus.MenuUtil.creatWeiXinMenu(MenuUtil.java:71) MenuUtil.java INFO 微信自定义菜单初始化完成....
+ 2018-11-16 16:58:58 com.xfwl.beans.menus.MenuUtil.creatWeiXinMenu(MenuUtil.java:72) MenuUtil.java INFO {"errcode":0,"errmsg":"ok"}
+
+ 2018-11-16 16:58:58 com.xfwl.token.AccessTokenServlet.getAccessToken(AccessTokenServlet.java:109) AccessTokenServlet.java INFO 获取access_token：15_N1kmWb0tlyJcuWKzCBtR8Xr2CVQO1l3AVWVh6KuK4Iz4jednA0G0q5eo5FAAcQc4jStIKvd4VtHldRaoKiP03z5sL5Mru0_bv90ngIKRaZ5QMsyDstgxyHCok0Gr6cESU4XJjE9l5HDO3Sw9PJTcAIAGAK
+ 2018-11-16 16:58:58 com.xfwl.token.AccessTokenServlet$1.run(AccessTokenServlet.java:46) AccessTokenServlet.java INFO access_token获取成功，休息7000s
+ 2018-11-16 17:00:08 com.xfwl.beans.menus.MenuUtil.creatWeiXinMenu(MenuUtil.java:56) MenuUtil.java INFO 自定义菜单上送报文1：
+{"button":[{"name":"技术交流","sub_button":[{"name":"我的博客","type":"view","url":"https://www.cnblogs.com/newwind/"}]},{"name":"我的游戏","sub_button":[{"name":"吃鸡战场","type":"click","key":"game_cjzc"},{"name":"王者荣耀","type":"click","key":"game_wzry"},{"name":"明日之后","type":"click","key":"game_mrzh"}]},{"name":"与我联系2","type":"view","url":"http://yx4ydh.natappfree.cc/WeChatPubAdrPro/index.jsp"}]}
+ 2018-11-16 17:00:09 com.xfwl.beans.menus.MenuUtil.creatWeiXinMenu(MenuUtil.java:71) MenuUtil.java INFO 微信自定义菜单初始化完成....
+ 2018-11-16 17:00:09 com.xfwl.beans.menus.MenuUtil.creatWeiXinMenu(MenuUtil.java:72) MenuUtil.java INFO {"errcode":0,"errmsg":"ok"}
+
+ 2018-11-16 17:00:09 com.xfwl.token.AccessTokenServlet.getAccessToken(AccessTokenServlet.java:109) AccessTokenServlet.java INFO 获取access_token：15_N1kmWb0tlyJcuWKzCBtR8Xr2CVQO1l3AVWVh6KuK4Iz4jednA0G0q5eo5FAAcQc4jStIKvd4VtHldRaoKiP03z5sL5Mru0_bv90ngIKRaZ5QMsyDstgxyHCok0Gr6cESU4XJjE9l5HDO3Sw9PJTcAIAGAK
+ 2018-11-16 17:00:09 com.xfwl.token.AccessTokenServlet$1.run(AccessTokenServlet.java:46) AccessTokenServlet.java INFO access_token获取成功，休息7000s
+ 2018-11-16 17:00:53 com.xfwl.beans.menus.MenuUtil.creatWeiXinMenu(MenuUtil.java:56) MenuUtil.java INFO 自定义菜单上送报文1：
+{"button":[{"name":"技术交流","sub_button":[{"name":"我的博客","type":"view","url":"https://www.cnblogs.com/newwind/"}]},{"name":"我的游戏","sub_button":[{"name":"吃鸡战场","type":"click","key":"game_cjzc"},{"name":"王者荣耀","type":"click","key":"game_wzry"},{"name":"明日之后","type":"click","key":"game_mrzh"}]},{"name":"与我联系2","type":"view","url":"http://yx4ydh.natappfree.cc/WeChatPubAdrPro/index.jsp"}]}
+ 2018-11-16 17:00:54 com.xfwl.beans.menus.MenuUtil.creatWeiXinMenu(MenuUtil.java:71) MenuUtil.java INFO 微信自定义菜单初始化完成....
+ 2018-11-16 17:00:54 com.xfwl.beans.menus.MenuUtil.creatWeiXinMenu(MenuUtil.java:72) MenuUtil.java INFO {"errcode":0,"errmsg":"ok"}
+
+ 2018-11-16 17:00:54 com.xfwl.token.AccessTokenServlet.getAccessToken(AccessTokenServlet.java:109) AccessTokenServlet.java INFO 获取access_token：15_N1kmWb0tlyJcuWKzCBtR8Xr2CVQO1l3AVWVh6KuK4Iz4jednA0G0q5eo5FAAcQc4jStIKvd4VtHldRaoKiP03z5sL5Mru0_bv90ngIKRaZ5QMsyDstgxyHCok0Gr6cESU4XJjE9l5HDO3Sw9PJTcAIAGAK
+ 2018-11-16 17:00:54 com.xfwl.token.AccessTokenServlet$1.run(AccessTokenServlet.java:46) AccessTokenServlet.java INFO access_token获取成功，休息7000s
+ 2018-11-16 17:00:57 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:80) WXServletToken.java INFO 请求进入
+ 2018-11-16 17:00:57 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:83) WXServletToken.java INFO 开始构造消息
+ 2018-11-16 17:00:57 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:47) MessageUtil.java INFO 获取输入流
+ 2018-11-16 17:00:57 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO ToUserName|gh_bc03872d5337
+ 2018-11-16 17:00:57 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO FromUserName|or9Yh1VVr7QRGnHjaqPcmAEvBmg0
+ 2018-11-16 17:00:57 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO CreateTime|1542358856
+ 2018-11-16 17:00:57 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO MsgType|event
+ 2018-11-16 17:00:57 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO Event|VIEW
+ 2018-11-16 17:00:57 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO EventKey|http://yx4ydh.natappfree.cc/WeChatPubAdrPro/index.jsp
+ 2018-11-16 17:00:57 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO MenuId|425439016
+ 2018-11-16 17:00:57 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:89) WXServletToken.java INFO 开始构造消息
+ 2018-11-16 17:00:57 com.xfwl.event.ViewHandler.dealHandler(ViewHandler.java:30) ViewHandler.java INFO 【VIEW】:eventKey:http://yx4ydh.natappfree.cc/WeChatPubAdrPro/index.jsp
+ 2018-11-16 17:02:31 com.xfwl.beans.menus.MenuUtil.creatWeiXinMenu(MenuUtil.java:56) MenuUtil.java INFO 自定义菜单上送报文1：
+{"button":[{"name":"技术交流","sub_button":[{"name":"我的博客","type":"view","url":"https://www.cnblogs.com/newwind/"}]},{"name":"我的游戏","sub_button":[{"name":"吃鸡战场","type":"click","key":"game_cjzc"},{"name":"王者荣耀","type":"click","key":"game_wzry"},{"name":"明日之后","type":"click","key":"game_mrzh"}]},{"name":"与我联系2","type":"view","url":"http://njc5eq.natappfree.cc/WeChatPubAdrPro/index.jsp"}]}
+ 2018-11-16 17:02:32 com.xfwl.beans.menus.MenuUtil.creatWeiXinMenu(MenuUtil.java:71) MenuUtil.java INFO 微信自定义菜单初始化完成....
+ 2018-11-16 17:02:32 com.xfwl.beans.menus.MenuUtil.creatWeiXinMenu(MenuUtil.java:72) MenuUtil.java INFO {"errcode":0,"errmsg":"ok"}
+
+ 2018-11-16 17:02:32 com.xfwl.token.AccessTokenServlet.getAccessToken(AccessTokenServlet.java:109) AccessTokenServlet.java INFO 获取access_token：15_N1kmWb0tlyJcuWKzCBtR8Xr2CVQO1l3AVWVh6KuK4Iz4jednA0G0q5eo5FAAcQc4jStIKvd4VtHldRaoKiP03z5sL5Mru0_bv90ngIKRaZ5QMsyDstgxyHCok0Gr6cESU4XJjE9l5HDO3Sw9PJTcAIAGAK
+ 2018-11-16 17:02:32 com.xfwl.token.AccessTokenServlet$1.run(AccessTokenServlet.java:46) AccessTokenServlet.java INFO access_token获取成功，休息7000s
+ 2018-11-16 17:02:39 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:80) WXServletToken.java INFO 请求进入
+ 2018-11-16 17:02:39 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:83) WXServletToken.java INFO 开始构造消息
+ 2018-11-16 17:02:39 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:47) MessageUtil.java INFO 获取输入流
+ 2018-11-16 17:02:39 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO ToUserName|gh_bc03872d5337
+ 2018-11-16 17:02:39 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO FromUserName|or9Yh1VVr7QRGnHjaqPcmAEvBmg0
+ 2018-11-16 17:02:39 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO CreateTime|1542358957
+ 2018-11-16 17:02:39 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO MsgType|event
+ 2018-11-16 17:02:39 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO Event|VIEW
+ 2018-11-16 17:02:39 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO EventKey|http://yx4ydh.natappfree.cc/WeChatPubAdrPro/index.jsp
+ 2018-11-16 17:02:39 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO MenuId|425439016
+ 2018-11-16 17:02:39 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:89) WXServletToken.java INFO 开始构造消息
+ 2018-11-16 17:02:39 com.xfwl.event.ViewHandler.dealHandler(ViewHandler.java:30) ViewHandler.java INFO 【VIEW】:eventKey:http://yx4ydh.natappfree.cc/WeChatPubAdrPro/index.jsp
+ 2018-11-16 17:02:49 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:80) WXServletToken.java INFO 请求进入
+ 2018-11-16 17:02:49 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:83) WXServletToken.java INFO 开始构造消息
+ 2018-11-16 17:02:49 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:47) MessageUtil.java INFO 获取输入流
+ 2018-11-16 17:02:49 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO ToUserName|gh_bc03872d5337
+ 2018-11-16 17:02:49 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO FromUserName|or9Yh1VVr7QRGnHjaqPcmAEvBmg0
+ 2018-11-16 17:02:49 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO CreateTime|1542358968
+ 2018-11-16 17:02:49 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO MsgType|event
+ 2018-11-16 17:02:49 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO Event|CLICK
+ 2018-11-16 17:02:49 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO EventKey|game_mrzh
+ 2018-11-16 17:02:49 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:89) WXServletToken.java INFO 开始构造消息
+ 2018-11-16 17:02:49 com.xfwl.event.ClickHandler.dealHandler(ClickHandler.java:54) ClickHandler.java INFO 【CLICK】:clickId:game_mrzh
+ 2018-11-16 17:03:29 com.xfwl.token.AccessTokenServlet.getAccessToken(AccessTokenServlet.java:89) AccessTokenServlet.java INFO 获取到的access_token={"access_token":"15_ImHuxQUMSRpWCIGkC99orVpCn4zDRfifNNNzCSv2ORtEN8-uJI_Z6l92fPOmvyat8okn0gUNti8erFkm80efIiMLAWbs4Litx3xscaJBk-hyxZpQyCJxQXX9iqy_9ba3mG5I-M-IlzTqkrSLJEMjACAPKS","expires_in":7200}
+
+ 2018-11-16 17:03:29 com.xfwl.token.AccessTokenServlet.getAccessToken(AccessTokenServlet.java:97) AccessTokenServlet.java INFO 保存微信access_token:15_ImHuxQUMSRpWCIGkC99orVpCn4zDRfifNNNzCSv2ORtEN8-uJI_Z6l92fPOmvyat8okn0gUNti8erFkm80efIiMLAWbs4Litx3xscaJBk-hyxZpQyCJxQXX9iqy_9ba3mG5I-M-IlzTqkrSLJEMjACAPKS
+可通过：AccessTokenServlet.ACCESS_TOKEN获取
+ 2018-11-16 17:03:29 com.xfwl.token.AccessTokenServlet.getAccessToken(AccessTokenServlet.java:109) AccessTokenServlet.java INFO 获取access_token：15_ImHuxQUMSRpWCIGkC99orVpCn4zDRfifNNNzCSv2ORtEN8-uJI_Z6l92fPOmvyat8okn0gUNti8erFkm80efIiMLAWbs4Litx3xscaJBk-hyxZpQyCJxQXX9iqy_9ba3mG5I-M-IlzTqkrSLJEMjACAPKS
+ 2018-11-16 17:03:29 com.xfwl.token.AccessTokenServlet$1.run(AccessTokenServlet.java:46) AccessTokenServlet.java INFO access_token获取成功，休息7000s
+ 2018-11-16 17:03:54 com.xfwl.beans.menus.MenuUtil.creatWeiXinMenu(MenuUtil.java:56) MenuUtil.java INFO 自定义菜单上送报文1：
+{"button":[{"name":"技术交流","sub_button":[{"name":"我的博客","type":"view","url":"https://www.cnblogs.com/newwind/"}]},{"name":"我的游戏","sub_button":[{"name":"吃鸡战场","type":"click","key":"game_cjzc"},{"name":"王者荣耀","type":"click","key":"game_wzry"},{"name":"明日之后","type":"click","key":"game_mrzh"}]},{"name":"与我联系2","type":"view","url":"http://njc5eq.natappfree.cc/WeChatPubAdrPro/index.jsp"}]}
+ 2018-11-16 17:03:55 com.xfwl.beans.menus.MenuUtil.creatWeiXinMenu(MenuUtil.java:71) MenuUtil.java INFO 微信自定义菜单初始化完成....
+ 2018-11-16 17:03:55 com.xfwl.beans.menus.MenuUtil.creatWeiXinMenu(MenuUtil.java:72) MenuUtil.java INFO {"errcode":0,"errmsg":"ok"}
+
+ 2018-11-16 17:03:55 com.xfwl.token.AccessTokenServlet.getAccessToken(AccessTokenServlet.java:109) AccessTokenServlet.java INFO 获取access_token：15_ImHuxQUMSRpWCIGkC99orVpCn4zDRfifNNNzCSv2ORtEN8-uJI_Z6l92fPOmvyat8okn0gUNti8erFkm80efIiMLAWbs4Litx3xscaJBk-hyxZpQyCJxQXX9iqy_9ba3mG5I-M-IlzTqkrSLJEMjACAPKS
+ 2018-11-16 17:03:55 com.xfwl.token.AccessTokenServlet$1.run(AccessTokenServlet.java:46) AccessTokenServlet.java INFO access_token获取成功，休息7000s
+ 2018-11-16 17:03:59 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:80) WXServletToken.java INFO 请求进入
+ 2018-11-16 17:03:59 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:83) WXServletToken.java INFO 开始构造消息
+ 2018-11-16 17:03:59 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:47) MessageUtil.java INFO 获取输入流
+ 2018-11-16 17:03:59 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO ToUserName|gh_bc03872d5337
+ 2018-11-16 17:03:59 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO FromUserName|or9Yh1VVr7QRGnHjaqPcmAEvBmg0
+ 2018-11-16 17:03:59 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO CreateTime|1542359038
+ 2018-11-16 17:03:59 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO MsgType|event
+ 2018-11-16 17:03:59 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO Event|unsubscribe
+ 2018-11-16 17:03:59 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO EventKey|
+ 2018-11-16 17:03:59 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:89) WXServletToken.java INFO 开始构造消息
+ 2018-11-16 17:03:59 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:99) WXServletToken.java INFO 发生异常：null
+ 2018-11-16 17:04:16 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:80) WXServletToken.java INFO 请求进入
+ 2018-11-16 17:04:16 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:83) WXServletToken.java INFO 开始构造消息
+ 2018-11-16 17:04:16 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:47) MessageUtil.java INFO 获取输入流
+ 2018-11-16 17:04:16 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO ToUserName|gh_bc03872d5337
+ 2018-11-16 17:04:16 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO FromUserName|or9Yh1VVr7QRGnHjaqPcmAEvBmg0
+ 2018-11-16 17:04:16 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO CreateTime|1542359055
+ 2018-11-16 17:04:16 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO MsgType|event
+ 2018-11-16 17:04:16 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO Event|subscribe
+ 2018-11-16 17:04:16 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO EventKey|
+ 2018-11-16 17:04:16 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:89) WXServletToken.java INFO 开始构造消息
+ 2018-11-16 17:04:16 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:99) WXServletToken.java INFO 发生异常：null
+ 2018-11-16 17:04:18 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:80) WXServletToken.java INFO 请求进入
+ 2018-11-16 17:04:18 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:83) WXServletToken.java INFO 开始构造消息
+ 2018-11-16 17:04:18 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:47) MessageUtil.java INFO 获取输入流
+ 2018-11-16 17:04:18 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO ToUserName|gh_bc03872d5337
+ 2018-11-16 17:04:18 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO FromUserName|or9Yh1VVr7QRGnHjaqPcmAEvBmg0
+ 2018-11-16 17:04:18 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO CreateTime|1542359057
+ 2018-11-16 17:04:18 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO MsgType|event
+ 2018-11-16 17:04:18 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO Event|VIEW
+ 2018-11-16 17:04:18 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO EventKey|http://njc5eq.natappfree.cc/WeChatPubAdrPro/index.jsp
+ 2018-11-16 17:04:18 com.xfwl.message.MessageUtil.parseXml(MessageUtil.java:57) MessageUtil.java INFO MenuId|425439020
+ 2018-11-16 17:04:18 com.xfwl.token.WXServletToken.doPost(WXServletToken.java:89) WXServletToken.java INFO 开始构造消息
+ 2018-11-16 17:04:18 com.xfwl.event.ViewHandler.dealHandler(ViewHandler.java:30) ViewHandler.java INFO 【VIEW】:eventKey:http://njc5eq.natappfree.cc/WeChatPubAdrPro/index.jsp
+ 2018-11-16 17:05:382018-11-16 17:05:392018-11-16 17:05:392018-11-16 17:05:392018-11-16 17:05:392018-11-16 17:06:022018-11-16 17:06:032018-11-16 17:06:032018-11-16 17:06:032018-11-16 17:06:032018-11-16 17:06:452018-11-16 17:06:462018-11-16 17:06:462018-11-16 17:06:462018-11-16 17:06:462018-11-16 17:07:302018-11-16 17:07:302018-11-16 17:07:302018-11-16 17:07:312018-11-16 17:07:312018-11-16 17:07:312018-11-16 17:07:312018-11-16 17:07:312018-11-16 17:07:312018-11-16 17:07:312018-11-16 17:07:312018-11-16 17:07:312018-11-16 17:07:312018-11-16 17:07:322018-11-16 17:07:322018-11-16 17:07:322018-11-16 17:07:322018-11-16 17:09:322018-11-16 17:09:332018-11-16 17:09:332018-11-16 17:09:332018-11-16 17:09:332018-11-16 17:10:412018-11-16 17:10:422018-11-16 17:10:422018-11-16 17:10:422018-11-16 17:10:422018-11-16 17:11:262018-11-16 17:11:272018-11-16 17:11:272018-11-16 17:11:272018-11-16 17:11:272018-11-16 17:12:052018-11-16 17:12:062018-11-16 17:12:062018-11-16 17:12:062018-11-16 17:12:062018-11-16 17:13:072018-11-16 17:13:082018-11-16 17:13:082018-11-16 17:13:082018-11-16 17:13:082018-11-16 17:13:092018-11-16 17:13:092018-11-16 17:13:092018-11-16 17:13:092018-11-16 17:13:092018-11-16 17:13:092018-11-16 17:13:092018-11-16 17:13:092018-11-16 17:13:092018-11-16 17:13:092018-11-16 17:13:092018-11-16 17:13:092018-11-16 17:13:142018-11-16 17:13:142018-11-16 17:13:142018-11-16 17:13:142018-11-16 17:13:142018-11-16 17:13:142018-11-16 17:13:142018-11-16 17:13:142018-11-16 17:13:142018-11-16 17:13:142018-11-16 17:13:142018-11-16 17:13:172018-11-16 17:13:172018-11-16 17:13:172018-11-16 17:13:172018-11-16 17:13:172018-11-16 17:13:172018-11-16 17:13:172018-11-16 17:13:172018-11-16 17:13:172018-11-16 17:13:172018-11-16 17:13:172018-11-16 17:13:202018-11-16 17:13:202018-11-16 17:13:202018-11-16 17:13:202018-11-16 17:13:202018-11-16 17:13:202018-11-16 17:13:202018-11-16 17:13:202018-11-16 17:13:202018-11-16 17:13:202018-11-16 17:13:202018-11-16 17:14:352018-11-16 17:14:362018-11-16 17:14:362018-11-16 17:14:362018-11-16 17:14:36

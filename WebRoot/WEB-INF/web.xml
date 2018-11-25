@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name></display-name>
+	<!-- 默认界面 -->
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<!-- 配置过滤器 -->
+	<!-- <filter> <filter-name>filter</filter-name> <filter-class>com.xfwl.filter.RequestFilter</filter-class> 
+		<init-param> <param-name>charset</param-name> <param-value>UTF-8</param-value> 
+		</init-param> <init-param> <param-name>contentType</param-name> <param-value>text/html;charset=UTF-8</param-value> 
+		</init-param> </filter> <filter-mapping> <filter-name>filter</filter-name> 
+		* 代表截获所有的请求 或指定请求/test.do /xxx.do <url-pattern>/*</url-pattern> </filter-mapping> -->
+	<!-- 加载log4j配置文件 -->
+	<context-param>
+		<param-name>log4jRefreshInterval</param-name>
+		<param-value>1000</param-value>
+	</context-param>
+	<servlet>
+		<servlet-name>Log4JInitServlet</servlet-name>
+		<servlet-class>com.xfwl.log.Log4JInitServlet</servlet-class>
+		<init-param>
+				<param-name>log4j-properties-location</param-name>
+				<param-value>WEB-INF/conf/log4j.properties</param-value>
+		</init-param>
+		<load-on-startup>3</load-on-startup>
+	</servlet>
+    <!-- 接入微信Token验证 -->
+	<servlet>
+		<servlet-name>WXServletToken</servlet-name>
+		<servlet-class>com.xfwl.token.WXServletToken</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>WXServletToken</servlet-name>
+		<url-pattern>/servlet/WXServletToken</url-pattern>
+	</servlet-mapping>
+	
+	<!-- access_token获取：默认启动 设置初始化参数 -->
+	<servlet>
+		<servlet-name>AccessTokenServlet</servlet-name>
+		<servlet-class>com.xfwl.token.AccessTokenServlet</servlet-class>
+		<init-param>
+			<param-name>appId</param-name>
+			<param-value>wxf24556a8140a1d0e</param-value>
+		</init-param>
+		<init-param>
+			<param-name>appSecret</param-name>
+			<param-value>7bcf3ccbddb48e5ca524ee062f623264</param-value>
+		</init-param>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccessTokenServlet</servlet-name>
+		<url-pattern>/servlet/AccessTokenServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
