@@ -22,7 +22,7 @@ public class StringTool {
 		return (str == null) || ("".equals(str)) || (str.length() == 0);
 	}
 	/**
-	 * 获取服务器当前事件121221
+	 * 获取服务器当前事件
 	 * @param timeFormat 格式化
 	 * @return
 	 */
